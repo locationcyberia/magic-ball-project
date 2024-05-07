@@ -5,9 +5,9 @@ Steps to complete this assignment:
 3. Create a constant variable called last name and set it as your last name: 'const last_name = "your name goes here";'
 4. Create a variable using let called question and set it to a question: 'let question = "your question goes here";'
 5. Write a console.log statement that says "Hello my name is {first name} {last name} and my question is: {question}", ex: 'console.log("Hello my name is " + first_name + " " + last_name + " and my question is " + question);'
-6. Under the last_name variable and create a constant full name variable, use template literals to concatenate the first and last name variables, ex: 'const full_name = `${first_name} ${last_name}`;'
+6. Under the last_name variable and create a constant full name variable, use template literals to concatenate the first and last name variables, ex: 'const fullName = `${first_name} ${last_name}`;'
 7. Change the code in the last console.log statement to use template literals instead of string concatentation. ex: 'console.log(`Hello my name is ${first_name} ${last_name} and my question is: ${question});'
-8. In the final console.log use the full_name variable instead of the first and last name variables: ex: 'console.log(`Hello my name is ${full_name}....`);'
+8. In the final console.log use the fullName variable instead of the first and last name variables: ex: 'console.log(`Hello my name is ${fullName}....`);'
 9. In the final console.log use the .toUpperCase() method on question, ex: 'console.log(`... ${question.toUpperCase()`});'
 10. In the final console.log use "\n" to create a new line after "my question is:", ex: 'console.log(`... my question is:\n...`);'
 11. After the last console.log statement, create a constant variable called random number, use the Math.random and Math.round functions to return a number between 1 and 8 and set the result to this variable, HINT at the number 1 at the end of the equation.
